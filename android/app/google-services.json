@@ -1,0 +1,171 @@
+ {
+  "project_info": {
+    "project_number": "1021452764496",
+    "firebase_url": "https://poster-a95bf.firebaseio.com",
+    "project_id": "poster-a95bf",
+    "storage_bucket": "poster-a95bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021452764496:android:38162ce9111e0a957dd855",
+        "android_client_info": {
+          "package_name": "com.app.dressingfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021452764496-bijrorm0hqol4f89q7vj3ho0ubna747r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANW8h_S3v1S5_sAraZPr3Qn5KBFzgQU-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021452764496-9vf97imldjhml5e89id0kiael7mkdsf2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021452764496-0bu3ffo7qvodmrnu6o34cts41srupqng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mahama"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021452764496:android:32365b8b4d7e07297dd855",
+        "android_client_info": {
+          "package_name": "com.etechviral.self_host_group_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021452764496-bijrorm0hqol4f89q7vj3ho0ubna747r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANW8h_S3v1S5_sAraZPr3Qn5KBFzgQU-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021452764496-9vf97imldjhml5e89id0kiael7mkdsf2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021452764496-0bu3ffo7qvodmrnu6o34cts41srupqng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mahama"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021452764496:android:e14c433905d412877dd855",
+        "android_client_info": {
+          "package_name": "com.example.almahama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021452764496-37585f5e5cqd222mk35odkr5gsdbl92r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.almahama",
+            "certificate_hash": "b6197b2af6493fec6e9ea4df6d0d0d8ae389988a"
+          }
+        },
+        {
+          "client_id": "1021452764496-bijrorm0hqol4f89q7vj3ho0ubna747r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANW8h_S3v1S5_sAraZPr3Qn5KBFzgQU-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021452764496-9vf97imldjhml5e89id0kiael7mkdsf2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021452764496-0bu3ffo7qvodmrnu6o34cts41srupqng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mahama"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021452764496:android:901bf60a97bff7807dd855",
+        "android_client_info": {
+          "package_name": "com.mazdaat.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021452764496-9vt29c67rkq88104oajcs9rvfvq7slrd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mazdaat.app",
+            "certificate_hash": "b6197b2af6493fec6e9ea4df6d0d0d8ae389988a"
+          }
+        },
+        {
+          "client_id": "1021452764496-bijrorm0hqol4f89q7vj3ho0ubna747r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANW8h_S3v1S5_sAraZPr3Qn5KBFzgQU-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021452764496-9vf97imldjhml5e89id0kiael7mkdsf2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1021452764496-0bu3ffo7qvodmrnu6o34cts41srupqng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mahama"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
