@@ -129,20 +129,7 @@ class _LoginAsDoctorState extends State<LoginAsDoctor> {
         } else {
           print('success coming else');
           String? token = await firebaseMessaging.getToken();
-          FirebaseDatabase.instance
-              .ref()
-              .child('100' + jsonResponse['register']['doctor_id'].toString())
-              .update({
-            "name": jsonResponse['register']['name'],
-            "image": jsonResponse['register']['image'],
-          }).then((value) async {
-            FirebaseDatabase.instance
-                .ref()
-                .child("100" + jsonResponse['register']['doctor_id'].toString())
-                .child("TokenList")
-                .set({
-              "device": token.toString(),
-            }).then((value) async {
+   
               print('then call');
               await SharedPreferences.getInstance().then((pref) {
                 pref.setBool("isLoggedInAsDoctor", true);
@@ -177,12 +164,8 @@ class _LoginAsDoctorState extends State<LoginAsDoctor> {
                 password: pass,
               );
               _loginToCC(context, user);
-            }).catchError((onError) {
-              print('firebasse db error $onError');
-            });
-          }).catchError((onError) {
-            print('firebasse db error $onError');
-          });
+           
+         
         }
       } catch (e) {
         Navigator.pop(context);

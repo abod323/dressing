@@ -148,20 +148,7 @@ class _RegisterAsDoctorState extends State<RegisterAsDoctor> {
         }
         else {
           String? token = await firebaseMessaging.getToken();
-          FirebaseDatabase.instance
-              .reference()
-              .child('100' + jsonResponse['register']['user_id'].toString())
-              .update({
-            "name": jsonResponse['register']['name'],
-            "image": jsonResponse['register']['image'],
-          }).then((value) async {
-            FirebaseDatabase.instance
-                .reference()
-                .child("100" + jsonResponse['register']['user_id'].toString())
-                .child("TokenList")
-                .set({
-              "device": token.toString(),
-            }).then((value) async {
+      
               print('then call');
               await SharedPreferences.getInstance().then((pref) {
                 pref.setBool("isLoggedInAsDoctor", true);
@@ -189,8 +176,8 @@ class _RegisterAsDoctorState extends State<RegisterAsDoctor> {
               // Navigator.pushReplacement(context,
               //     MaterialPageRoute(builder: (context) => DoctorTabsScreen())
               // );
-            });
-          });
+            
+          
         }
       }catch(e){
         Navigator.pop(context);

@@ -94,13 +94,7 @@ class _RegisterAsUserState extends State<RegisterAsUser> {
         }
         else {
           String? token = await FirebaseMessaging.instance.getToken();
-          FirebaseDatabase.instance.reference().child("117"+jsonResponse['register']['user_id'].toString()).set({
-            "name": jsonResponse['register']['name'],
-            "image": jsonResponse['register']['profile_pic'],
-          }).then((value) async {
-            FirebaseDatabase.instance.reference().child("117"+jsonResponse['register']['user_id'].toString()).child("TokenList").set({
-              "device" : token.toString(),
-            }).then((value) async {
+      
               await SharedPreferences.getInstance().then((pref) {
                 pref.setBool("isLoggedIn", true);
                 pref.setString("userId", jsonResponse['register']['user_id'].toString());
@@ -125,8 +119,8 @@ class _RegisterAsUserState extends State<RegisterAsUser> {
               // Navigator.pushReplacement(context,
               //     MaterialPageRoute(builder: (context) => TabsScreen())
               // );
-            });
-          });
+            
+          
 
           // await SharedPreferences.getInstance().then((pref) {
           //   pref.setBool("isLoggedIn", true);

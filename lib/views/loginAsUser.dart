@@ -138,20 +138,7 @@ class _LoginAsUserState extends State<LoginAsUser> {
         }else{
           UserLoginResponse _response = UserLoginResponse.fromJson(jsonDecode(response.body));
           String? token = await firebaseMessaging.getToken();
-          FirebaseDatabase.instance
-              .reference()
-              .child("117" + _response.register!.userId.toString())
-              .update({
-            "name": _response.register!.name,
-            "image": _response.register!.profilePic,
-          }).then((value) async {
-            FirebaseDatabase.instance
-                .reference()
-                .child("117" + _response.register!.userId.toString())
-                .child("TokenList")
-                .set({
-              "device": token.toString(),
-            }).then((value) async {
+          
               await SharedPreferences.getInstance().then((pref) {
                 pref.setBool("isLoggedIn", true);
                 pref.setString(
@@ -184,8 +171,8 @@ class _LoginAsUserState extends State<LoginAsUser> {
                     : pass,
               );
               _loginToCC(context, user);
-            });
-          });
+            
+          
         }
       }
       /// old code without create modal class
